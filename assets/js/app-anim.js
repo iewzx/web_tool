@@ -59,7 +59,7 @@
         if( theme.loading=='1' && $(this).attr('href') && $(this).attr('href').indexOf("#") != 0 && $(this).attr('href').indexOf("java") != 0 && !$(this).data('fancybox')  && !$(this).data('commentid') && !$(this).hasClass('nofx') ){
             var load = $('<div id="load-loading"></div>');
             $("body").prepend(load);
-            load.animate({opacity:'1'},100,'swing').delay(2000).hide(300,function(){ load.remove() });
+            load.animate({opacity:'1'},200,'swing').delay(2000).hide(300,function(){ load.remove() });
         }
     });
     // 点赞
